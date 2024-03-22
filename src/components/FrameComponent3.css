@@ -1,0 +1,108 @@
+.rectangle-icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-10xs);
+  width: 206.3px;
+  height: 90.7px;
+}
+.graphic-fundamentals {
+  height: 16px;
+  width: 122px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 122px;
+}
+.pending1 {
+  height: 9px;
+  width: 26px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 26px;
+}
+.pending-container {
+  border-radius: var(--br-11xs-5);
+  background-color: var(--color-antiquewhite);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs-5) var(--padding-10xs);
+  font-size: var(--font-size-7xs);
+  color: var(--orange);
+}
+.graphic-fundamentals-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15.75px;
+}
+.frame-child19 {
+  align-self: stretch;
+  height: 0.8px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.design-project-1 {
+  font-weight: 500;
+}
+.assignment-design-project-container {
+  align-self: stretch;
+  height: 13px;
+  position: relative;
+  display: inline-block;
+}
+.assignment-design-project-1-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.vector-parent16 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  font-size: var(--font-size-4xs);
+}
+.frame-parent33 {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  width: 188.3px;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  z-index: 1;
+}
+.vector-parent15 {
+  align-self: stretch;
+  height: 90.7px;
+  position: relative;
+}
+.frame-wrapper8 {
+  width: 206.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8.699999999999989px 0px 0px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-2xs-5);
+  color: var(--color-gray-200);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,62 @@
+.teacher-email-id {
+  height: 26px;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.teacher-email-id-wrapper {
+  width: 402.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-11xs) 0px 1.8000000000010914px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.what-is-your6 {
+  border: none;
+  outline: none;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-mini-1);
+  background-color: transparent;
+  height: 21px;
+  flex: 1;
+  position: relative;
+  color: var(--color-gray-700);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  min-width: 250px;
+  max-width: 100%;
+  padding: 0;
+}
+.what-is-your-email-id-wrapper {
+  align-self: stretch;
+  border-radius: var(--br-4xs-8);
+  border: 0.9px solid var(--color-black);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8.800000000000182px var(--padding-6xs) 8.800000000000182px
+    8.800000000001091px;
+  max-width: 100%;
+}
+.frame-parent24 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-8);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-mid-6);
+  color: var(--color-gray-300);
+  font-family: var(--font-poppins);
+}

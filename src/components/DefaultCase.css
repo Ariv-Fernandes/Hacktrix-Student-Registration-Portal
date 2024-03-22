@@ -1,0 +1,75 @@
+.vuesaxboldsetting-2-icon2 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  min-height: 18px;
+}
+.account-settings2 {
+  height: 18px;
+  flex: 1;
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+}
+.help12 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-8xs-5);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-xs);
+  gap: var(--gap-4xs);
+  z-index: 1;
+}
+.boldnotification-icon6 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 18px;
+  z-index: 1;
+}
+.notification-preferences2 {
+  height: 18px;
+  width: 132.7px;
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.boldnotification-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.default-case-inner {
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-xs);
+  box-sizing: border-box;
+}
+.default-case {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  text-align: left;
+  font-size: var(--font-size-2xs-5);
+  color: var(--gray-scale-white);
+  font-family: var(--font-poppins);
+}

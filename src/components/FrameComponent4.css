@@ -1,0 +1,53 @@
+.edit-course {
+  height: 18px;
+  width: 81px;
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  min-width: 81px;
+}
+.view-button3 {
+  border-radius: 4.44px;
+  background-color: var(--color-cadetblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-3xs-5);
+  white-space: nowrap;
+  z-index: 1;
+}
+.end-course {
+  height: 18px;
+  width: 82px;
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  min-width: 82px;
+}
+.view-button4 {
+  border-radius: 4.44px;
+  background-color: var(--color-crimson);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-4xs);
+  white-space: nowrap;
+  z-index: 1;
+}
+.view-button-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  text-align: right;
+  font-size: var(--font-size-mini-2);
+  color: var(--color-gray-300);
+  font-family: var(--font-poppins);
+}

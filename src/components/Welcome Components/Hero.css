@@ -1,0 +1,192 @@
+.hero-child {
+  width: 586px;
+  height: 503px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-beige-100);
+  display: none;
+  max-width: 100%;
+}
+.image-1-icon {
+  height: 154px;
+  width: 154px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-1-wrapper {
+  width: 386px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.welcome1 {
+  margin: 0;
+  height: 60px;
+  width: 211px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.welcome-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-sm) 0px var(--padding-mini);
+}
+.ready-for-the {
+  align-self: stretch;
+  height: 30px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+  margin-top: -5px;
+}
+.frame-parent42 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hero-inner {
+  width: 386px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-54xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray-300);
+}
+.route {
+  color: var(--color-beige-100);
+}
+.teacher {
+  height: 36px;
+  width: 485px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 18px);
+  left: calc(50% - 242.5px);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.25s;
+}
+.teacher:hover{
+  color: #01161E;
+}
+
+.teacher-wrapper {
+  height: 49px;
+  flex: 1;
+  border-radius: var(--br-mini);
+  background-color: var(--color-darkslategray-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  z-index: 1;
+  transition-duration: 0.25s;
+}
+.teacher-wrapper:hover {
+  background-color: #598392;
+}
+.student-wrapper:hover {
+  background-color: #598392;
+}
+
+.hero-inner1 {
+  width: 386px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.student-wrapper {
+  width: 386px;
+  height: 49px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-darkslategray-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  z-index: 1;
+  transition-duration: 0.25s;
+}
+.hero {
+  height: 503px;
+  width: 586px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-beige-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-44xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xl);
+  max-width: 100%;
+  z-index: 3;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-beige-100);
+  font-family: var(--font-poppins);
+}
+
+@media screen and (max-width: 725px) {
+  .welcome1 {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 650px) {
+  .hero {
+    padding-bottom: var(--padding-22xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcome1 {
+    font-size: var(--font-size-5xl);
+  }
+
+  .ready-for-the {
+    font-size: var(--font-size-base);
+  }
+
+  .hero-inner {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .teacher {
+    font-size: var(--font-size-lgi);
+  }
+}

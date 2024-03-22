@@ -1,0 +1,175 @@
+.login2 {
+    margin: 0;
+    width: 133px;
+    height: 72px;
+    position: relative;
+    font-size: var(--font-size-29xl);
+    font-weight: 700;
+    font-family: var(--font-poppins);
+    color: var(--gray-scale-white);
+    text-align: left;
+    display: inline-block;
+    z-index: 4;
+  }
+  .enter-your-account1 {
+    align-self: stretch;
+    height: 24px;
+    position: relative;
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    font-family: var(--font-poppins);
+    color: var(--color-gray-400);
+    text-align: left;
+    display: inline-block;
+    z-index: 4;
+  }
+  .login-group {
+    width: 211px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+  }
+  .username1 {
+    border: none;
+    outline: none;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-base);
+    background-color: transparent;
+    width: 83px;
+    height: 24px;
+    position: relative;
+    color: var(--color-gray-600);
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+    z-index: 4;
+  }
+  .username-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+  }
+  .password1 {
+    border: none;
+    outline: none;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-base);
+    background-color: transparent;
+    height: 24px;
+    width: 77px;
+    position: relative;
+    color: var(--color-gray-600);
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+    z-index: 4;
+  }
+  .eyeslashfill-icon1 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+    z-index: 4;
+  }
+  .password-parent {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .afcd {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    border-top: 1px solid var(--color-gray-500);
+    box-sizing: border-box;
+    z-index: 4;
+  }
+  .frame-parent44 {
+    align-self: stretch;
+    height: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+  }
+  .forgot-password1 {
+    width: 141px;
+    height: 24px;
+    position: relative;
+    font-size: var(--font-size-base);
+    font-family: var(--font-poppins);
+    color: var(--color-gray-600);
+    text-align: left;
+    display: inline-block;
+    z-index: 4;
+  }
+  .frame-parent43 {
+    width: 381px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-4xl);
+    max-width: 100%;
+  }
+  .login3 {
+    height: 24px;
+    width: 43px;
+    position: relative;
+    font-size: var(--font-size-base);
+    font-family: var(--font-poppins);
+    color: var(--gray-scale-white);
+    text-align: left;
+    display: inline-block;
+    min-width: 43px;
+  }
+  .login-container {
+    cursor: pointer;
+    border: none;
+    padding: var(--padding-xs) var(--padding-xl);
+    background-color: var(--color-steelblue-200);
+    align-self: stretch;
+    border-radius: var(--br-xs);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 4;
+  }
+  .login-container:hover {
+    background-color: var(--color-steelblue-100);
+  }
+  .frame-form {
+    margin: 0;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-29xl);
+    max-width: 100%;
+  }
+  
+  @media screen and (max-width: 725px) {
+    .login2 {
+      font-size: var(--font-size-19xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .login2 {
+      font-size: var(--font-size-10xl);
+    }
+  }
+  

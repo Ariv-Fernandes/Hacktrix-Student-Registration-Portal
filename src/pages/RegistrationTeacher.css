@@ -1,0 +1,88 @@
+.vector-icon38 {
+  position: absolute;
+  top: -118px;
+  left: 1006px;
+  width: 503.9px;
+  height: 448px;
+}
+.vector-icon39 {
+  position: absolute;
+  top: -128px;
+  left: 821px;
+  width: 406.7px;
+  height: 402.8px;
+  object-fit: contain;
+  z-index: 1;
+}
+.vector-icon40 {
+  position: absolute;
+  top: 45px;
+  left: 20px;
+  width: 406.7px;
+  height: 402.8px;
+  object-fit: contain;
+}
+.vector-icon41 {
+  position: absolute;
+  top: 970px;
+  left: 417px;
+  width: 406.7px;
+  height: 402.8px;
+  object-fit: contain;
+}
+.vector-icon42 {
+  position: absolute;
+  top: 175px;
+  left: 1283px;
+  width: 217px;
+  height: 200.4px;
+  z-index: 1;
+}
+.vector-icon43 {
+  position: absolute;
+  top: 475px;
+  left: -89px;
+  width: 217px;
+  height: 200.4px;
+}
+.vector-icon44 {
+  position: absolute;
+  top: 661px;
+  left: 298px;
+  width: 1567.3px;
+  height: 1418px;
+  object-fit: contain;
+  z-index: 1;
+}
+.gender-input-icon {
+  position: absolute;
+  top: 208px;
+  left: -108px;
+  width: 421.2px;
+  height: 389px;
+  z-index: 1;
+}
+.frame-main {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.registration-teacher {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-300);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 133px var(--padding-xl) 132px;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  letter-spacing: normal;
+}

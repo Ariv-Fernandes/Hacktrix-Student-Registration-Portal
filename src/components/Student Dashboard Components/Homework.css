@@ -1,0 +1,100 @@
+.data-processor-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-10xs);
+  width: 206.3px;
+  height: 90.7px;
+}
+.graphic-fundamentals1 {
+  height: 16px;
+  width: 122px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 122px;
+}
+.not-submitted {
+  height: 9px;
+  width: 45px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 45px;
+}
+.size-adjuster {
+  border-radius: var(--br-11xs-5);
+  background-color: var(--color-antiquewhite);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs-5) var(--padding-10xs);
+  white-space: nowrap;
+  font-size: var(--font-size-7xs);
+  color: var(--orange);
+}
+.graphic-fundamentals-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15.75px;
+}
+.position-provider-child {
+  align-self: stretch;
+  height: 0.8px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.design-project-11 {
+  font-weight: 500;
+}
+.assignment-design-project-container1 {
+  align-self: stretch;
+  height: 13px;
+  position: relative;
+  display: inline-block;
+}
+.effect-enabler {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.position-provider {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  font-size: var(--font-size-4xs);
+}
+.frame-parent39 {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  width: 188.8px;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  z-index: 1;
+}
+.data-processor1 {
+  align-self: stretch;
+  height: 90.7px;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-2xs-5);
+  color: var(--color-gray-200);
+  font-family: var(--font-poppins);
+}

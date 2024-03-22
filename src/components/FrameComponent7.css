@@ -1,0 +1,158 @@
+.course-credits {
+  height: 26px;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.what-are-lecture-timings {
+  width: 402.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-11xs) 0px 1.8000000000010914px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.how-mane-credits {
+  height: 21px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.course-description1 {
+  align-self: stretch;
+  border-radius: var(--br-4xs-8);
+  border: 0.9px solid var(--color-black);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8.79999999999972var (--padding-6xs) var(--padding-6xs)
+    8.800000000000182px 8.800000000001091px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  max-width: 100%;
+  font-size: var(--font-size-mini-1);
+  color: var(--color-gray-700);
+}
+.what-are-lecture-timings-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-8);
+  max-width: 100%;
+}
+.course-start-date {
+  font-weight: 500;
+}
+.course-start-date-container {
+  height: 26px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.course-start-date-dd-mm-yyyy-wrapper {
+  width: 402.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-11xs) 0px 1.7999999999992724px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.when-does-the {
+  border: none;
+  outline: none;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-mini-1);
+  background-color: transparent;
+  height: 21px;
+  flex: 1;
+  position: relative;
+  color: var(--color-gray-700);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  min-width: 250px;
+  max-width: 100%;
+  padding: 0;
+}
+.lecture-details2 {
+  align-self: stretch;
+  border-radius: var(--br-4xs-8);
+  border: 0.9px solid var(--color-black);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8.79999999999972var (--padding-6xs) var(--padding-6xs)
+    8.800000000000182px 8.799999999999272px;
+  max-width: 100%;
+}
+.course-end-date-container {
+  height: 26px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.when-does-the-course-end-wrapper {
+  align-self: stretch;
+  border-radius: var(--br-4xs-8);
+  border: 0.9px solid var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8.79999999999972var (--padding-6xs) var(--padding-6xs)
+    8.800000000000182px 8.799999999999272px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.where-will-lecture-be-conducte {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-8);
+  max-width: 100%;
+}
+.where-will-lecture-be-conducte-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-parent40 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-5xl);
+  box-sizing: border-box;
+  gap: 19.63px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-mid-6);
+  color: var(--color-gray-300);
+  font-family: var(--font-poppins);
+}

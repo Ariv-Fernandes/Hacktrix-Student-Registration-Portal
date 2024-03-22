@@ -1,0 +1,44 @@
+.calendarblank-icon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.start-date {
+  align-self: stretch;
+  height: 18px;
+  position: relative;
+  line-height: 18px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.jan-2024 {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--gray-900);
+  display: inline-block;
+}
+.heading2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  min-width: 110px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--gray-500);
+  font-family: var(--font-poppins);
+}

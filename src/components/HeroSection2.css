@@ -1,0 +1,191 @@
+.personal-details3 {
+  width: 176px;
+  height: 32px;
+  position: relative;
+  font-size: var(--font-size-2xl-1);
+  display: inline-block;
+}
+.gender2 {
+  width: 346.8px;
+  height: 26px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.what-is-your10 {
+  border: none;
+  outline: none;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-mini-1);
+  background-color: transparent;
+  height: 21px;
+  flex: 1;
+  position: relative;
+  color: var(--color-gray-700);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  min-width: 250px;
+  max-width: 100%;
+  padding: 0;
+}
+.what-is-your-gender-frame {
+  align-self: stretch;
+  border-radius: var(--br-4xs-8);
+  border: 0.9px solid var(--color-black);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8.800000000000011px var(--padding-6xs) 8.800000000000011px
+    8.800000000000182px;
+  max-width: 100%;
+}
+.gender-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-8);
+  max-width: 100%;
+}
+.frame-wrapper11 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px 1.800000000000182px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.teacher-email-id1 {
+  height: 26px;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.teacher-email-id-container {
+  width: 402.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-11xs) 0px 1.800000000000182px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.what-is-your-email-id-frame {
+  align-self: stretch;
+  border-radius: var(--br-4xs-8);
+  border: 0.9px solid var(--color-black);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8.800000000000068px var(--padding-6xs) 8.799999999999955px
+    8.800000000000182px;
+  max-width: 100%;
+}
+.frame-parent41 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-8);
+  max-width: 100%;
+}
+.personal-details-parent {
+  width: 446.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20.72px;
+  max-width: 100%;
+}
+.register6 {
+  height: 22px;
+  width: 66px;
+  position: relative;
+  font-size: var(--font-size-mid-6);
+  font-weight: 500;
+  font-family: var(--font-outfit);
+  color: var(--color-beige-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 66px;
+}
+.register5 {
+  cursor: pointer;
+  border: none;
+  padding: 8.799999999999955px 28.599999999999454px 8.800000000000068px
+    28.600000000000364px;
+  background-color: var(--color-darkslategray-200);
+  border-radius: var(--br-10xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.register5:hover {
+  background-color: var(--color-slategray-400);
+}
+.register-wrapper2 {
+  width: 447px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.hero-section5 {
+  width: 625px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-beige-100);
+  overflow-y: auto;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-17xl) var(--padding-xl) 57.39999999999998px;
+  box-sizing: border-box;
+  gap: var(--gap-24xl-5);
+  max-width: 100%;
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-mid-6);
+  color: var(--color-gray-300);
+  font-family: var(--font-poppins);
+}
+
+@media screen and (max-width: 725px) {
+  .hero-section5 {
+    padding-top: var(--padding-4xl);
+    padding-bottom: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 650px) {
+  .hero-section5 {
+    gap: var(--gap-3xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .personal-details3 {
+    font-size: var(--font-size-mid);
+  }
+}

@@ -1,0 +1,208 @@
+.vector-icon24 {
+  position: absolute;
+  top: -118px;
+  left: 185px;
+  width: 503.9px;
+  height: 448px;
+}
+.vector-icon25 {
+  position: absolute;
+  top: -128px;
+  left: 0px;
+  width: 406.7px;
+  height: 402.8px;
+  object-fit: contain;
+  z-index: 1;
+}
+.vector-icon26 {
+  position: absolute;
+  top: 175px;
+  left: 462px;
+  width: 217px;
+  height: 200.4px;
+  z-index: 1;
+}
+.vector-parent5 {
+  position: absolute;
+  top: 0px;
+  left: 821px;
+  width: 619px;
+  height: 375.4px;
+}
+.vector-icon27 {
+  position: absolute;
+  top: 343.8px;
+  left: 55px;
+  width: 406.7px;
+  height: 402.8px;
+  object-fit: contain;
+}
+.vector-icon28 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1567.3px;
+  height: 1418px;
+  object-fit: contain;
+  z-index: 1;
+}
+.frame-section {
+  position: absolute;
+  top: 977px;
+  left: 313px;
+  width: 1127px;
+  height: 653px;
+}
+.vector-icon29 {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  width: 406.7px;
+  height: 402.8px;
+  object-fit: contain;
+}
+.vector-icon30 {
+  position: absolute;
+  top: 430px;
+  left: -89px;
+  width: 217px;
+  height: 200.4px;
+}
+.what-are-prerequisites {
+  position: absolute;
+  top: 163px;
+  left: -108px;
+  width: 421.2px;
+  height: 389px;
+  z-index: 1;
+}
+.vector-parent6 {
+  position: absolute;
+  top: 45px;
+  left: 0px;
+  width: 426.7px;
+  height: 630.4px;
+}
+.course-details2 {
+  height: 32px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-2xl-1);
+  display: flex;
+  font-family: var(--font-poppins);
+  color: var(--color-gray-300);
+  text-align: left;
+  align-items: center;
+}
+.course-details-wrapper {
+  width: 158px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 2.800000000000182px;
+  box-sizing: border-box;
+}
+.number-of-credits {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl-2);
+  max-width: 100%;
+}
+.lecture-details {
+  height: 32px;
+  width: 161px;
+  position: relative;
+  font-size: var(--font-size-2xl-1);
+  display: inline-block;
+  font-family: var(--font-poppins);
+  color: var(--color-gray-300);
+  text-align: left;
+}
+.lecture-details-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 2.400000000000091px;
+}
+.submit {
+  height: 22px;
+  width: 56px;
+  position: relative;
+  font-size: var(--font-size-mid-6);
+  font-weight: 500;
+  font-family: var(--font-outfit);
+  color: var(--color-beige-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 56px;
+}
+.register2 {
+  cursor: pointer;
+  border: none;
+  padding: 8.800000000000182px 34px 8.800000000000182px 33.600000000000364px;
+  background-color: var(--color-darkslategray-200);
+  border-radius: var(--br-10xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.register2:hover {
+  background-color: var(--color-slategray-400);
+}
+.register-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-12xs) 0px 0px;
+}
+.hero-section2 {
+  margin: 0;
+  position: absolute;
+  top: calc(50% - 642px);
+  left: calc(50% - 315px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-beige-100);
+  width: 630px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-17xl) var(--padding-70xl) 38.39999999999963px;
+  box-sizing: border-box;
+  gap: var(--gap-lgi-6);
+  max-width: 100%;
+  z-index: 2;
+}
+.add-course {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 1630px;
+  overflow: hidden;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 650px) {
+  .add-course {
+    height: auto;
+    min-height: 1630;
+  }
+}
+@media screen and (max-width: 450px) {
+  .course-details2 {
+    font-size: var(--font-size-mid);
+  }
+
+  .lecture-details {
+    font-size: var(--font-size-mid);
+  }
+}
