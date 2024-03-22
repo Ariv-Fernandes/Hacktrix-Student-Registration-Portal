@@ -1,0 +1,14 @@
+{
+  "locofyConfig": {
+    "project": "hack html",
+    "id": "65fde7a1dbad2852ede2a084",
+    "framework": "html-css",
+    "typescript": false,
+    "styling": "CSS",
+    "unit": "px",
+    "naming": "Kebab Case",
+    "path": "public/",
+    "componentsPath": "c:\\Users\\abdul\\Desktop\\hack html\\src\\components",
+    "screensPath": "c:\\Users\\abdul\\Desktop\\hack html\\src\\pages"
+  }
+}
