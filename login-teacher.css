@@ -1,0 +1,308 @@
+.welcome-to {
+  margin: 0;
+  width: 600px;
+  font-weight: 200;
+}
+.welcome-to-teacher-container {
+  margin: 0;
+  width: 572px;
+  height: 140px;
+  position: relative;
+  font-size: inherit;
+  line-height: 70px;
+  display: inline-block;
+  z-index: 4;
+  font-family: inherit;
+}
+.login-to-access {
+  width: 236px;
+  height: 24px;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  display: inline-block;
+  z-index: 3;
+}
+.vector-icon54 {
+  position: absolute;
+  top: -106px;
+  left: 1038px;
+  width: 503.9px;
+  height: 448px;
+}
+.vector-icon55 {
+  position: absolute;
+  top: 251px;
+  left: 521px;
+  width: 1567.3px;
+  height: 1418px;
+  object-fit: contain;
+  z-index: 1;
+}
+.vector-icon56 {
+  position: absolute;
+  top: 245px;
+  left: 459px;
+  width: 421.2px;
+  height: 389px;
+  z-index: 2;
+}
+.vector-icon57 {
+  position: absolute;
+  top: 175px;
+  left: 1263px;
+  width: 217px;
+  height: 200.4px;
+  z-index: 2;
+}
+.vector-icon58 {
+  position: absolute;
+  top: -120px;
+  left: 831px;
+  width: 406.7px;
+  height: 402.8px;
+  object-fit: contain;
+  z-index: 3;
+}
+.vector-icon59 {
+  position: absolute;
+  top: 602px;
+  left: 627px;
+  width: 406.7px;
+  height: 402.8px;
+  object-fit: contain;
+  z-index: 2;
+}
+.login {
+  margin: 0;
+  position: absolute;
+  top: 155px;
+  left: 118px;
+  font-size: var(--font-size-29xl);
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--gray-scale-white);
+  z-index: 4;
+}
+.enter-your-account {
+  position: absolute;
+  top: 239px;
+  left: 118px;
+  font-weight: 500;
+  color: var(--color-gray-400);
+  z-index: 4;
+}
+.username {
+  position: absolute;
+  top: 311px;
+  left: 118px;
+  display: inline-block;
+  min-width: 83px;
+  z-index: 4;
+}
+.line-div {
+  position: absolute;
+  top: 347px;
+  left: 118px;
+  border-top: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 382px;
+  height: 1px;
+  z-index: 4;
+}
+.password {
+  position: absolute;
+  top: 371px;
+  left: 118px;
+  display: inline-block;
+  min-width: 77px;
+  z-index: 4;
+}
+input{
+  background-color: #01161E;
+  padding: 10px;
+  width: 360px;
+  border: none;
+  box-shadow: none;
+  color: #EFF6E0;
+}
+input::placeholder{
+  font-size: 1.2em;
+}
+.eyeslashfill-icon {
+  position: absolute;
+  top: 371px;
+  left: 475px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  z-index: 4;
+}
+.frame-child27 {
+  position: absolute;
+  top: 407px;
+  left: 118px;
+  border-top: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 382px;
+  height: 1px;
+  z-index: 4;
+}
+.forgot-password {
+  position: absolute;
+  top: 431px;
+  left: 118px;
+  z-index: 4;
+}
+.login1 {
+  height: 24px;
+  width: 43px;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--gray-scale-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 43px;
+}
+.login-wrapper {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-xs) 0px;
+  background-color: var(--color-steelblue-200);
+  position: absolute;
+  top: 503px;
+  left: 118px;
+  border-radius: var(--br-xs);
+  width: 393px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 4;
+}
+.login-wrapper:hover {
+  background-color: var(--color-steelblue-100);
+}
+.dont-have-an {
+  position: absolute;
+  top: 705px;
+  left: 128px;
+  z-index: 4;
+}
+.sign-up {
+  height: 24px;
+  width: 60px;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--gray-scale-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 60px;
+}
+.sign-up-wrapper {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-xs) var(--padding-xl);
+  background-color: var(--color-steelblue-200);
+  position: absolute;
+  top: 693px;
+  left: 386px;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 4;
+}
+.sign-up-wrapper:hover {
+  background-color: var(--color-steelblue-100);
+}
+.login-parent {
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: var(--color-gray-300);
+  width: 630px;
+  overflow: hidden;
+  z-index: 3;
+}
+.copy-1-icon {
+  position: absolute;
+  top: 319px;
+  left: 702px;
+  width: 753.6px;
+  height: 565.2px;
+  object-fit: cover;
+  z-index: 4;
+}
+.vector-parent22 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-600);
+  font-family: var(--font-poppins);
+}
+.login-teacher {
+  position: relative;
+  background-color: var(--color-darkslategray-200);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-136xl) 138px 569px 730px;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-61xl);
+  color: var(--color-whitesmoke-200);
+  font-family: var(--font-poppins);
+}
+
+@media screen and (max-width: 650px) {
+  .welcome-to-teacher-container {
+    font-size: var(--font-size-21xl);
+    line-height: 42px;
+  }
+
+  .login {
+    font-size: var(--font-size-19xl);
+  }
+
+  .login-teacher {
+    padding-left: 365px;
+    padding-right: 69px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcome-to-teacher-container {
+    font-size: var(--font-size-5xl);
+    line-height: 28px;
+  }
+
+  .login {
+    font-size: var(--font-size-10xl);
+  }
+
+  .login-teacher {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
