@@ -256,8 +256,10 @@
   border-radius: var(--br-10xs);
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
+  text-align: center;
+  
 }
 .register1:hover {
   background-color: var(--color-slategray-400);
@@ -265,8 +267,10 @@
 .register-container {
   width: 403.2px;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+
+  text-align: center;
+  align-items: center;
+  left: 100px;
   justify-content: center;
   max-width: 100%;
 }

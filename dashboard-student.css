@@ -17,6 +17,15 @@
   left: -7px;
   z-index: 1;
 }
+
+a::visited {
+  text-decoration: none;
+  color: #01161e;
+}
+a {
+  text-decoration: none;
+  color: #01161e;
+}
 .vuesaxboldbook-icon9 {
   width: 15.7px;
   height: 15.7px;
@@ -372,7 +381,7 @@
   text-transform: capitalize;
   font-weight: 500;
   display: flex;
-  align-items: center;
+  align-items: left;
   z-index: 1;
 }
 .data-flow-graph {

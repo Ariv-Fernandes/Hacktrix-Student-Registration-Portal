@@ -159,6 +159,7 @@ a:visited {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-duration: 0.25s;
 }
 .teacher-wrapper {
   height: 49px;
@@ -174,6 +175,18 @@ a:visited {
   position: relative;
   max-width: 100%;
   z-index: 1;
+  transition-duration: 0.25s;
+}
+.teacher-wrapper:hover {
+  background-color: #598392;
+  color: #01161e;
+}
+.student-wrapper:hover {
+  background-color: #598392;
+  color: #01161e;
+}
+.teacher:hover {
+  color: #01161e;
 }
 .hero-inner1 {
   width: 386px;
