@@ -1,155 +1,138 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-    <link rel="stylesheet" href="./global.css" />
-    <link rel="stylesheet" href="./registration-teacher.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap"
-    />
-  </head>
-  <body>
-    <div class="registration-teacher">
-      <main class="frame-main">
-        <img class="vector-icon38" alt="" src="./public/vector.svg" />
-
-        <img class="vector-icon39" alt="" src="./public/vector-1.svg" />
-
-        <img
-          class="vector-icon40"
-          loading="lazy"
-          alt=""
-          src="./public/vector-1.svg"
-        />
-
-        <img
-          class="vector-icon41"
-          loading="lazy"
-          alt=""
-          src="./public/vector-3.svg"
-        />
-
-        <img
-          class="vector-icon42"
-          loading="lazy"
-          alt=""
-          src="./public/vector-4.svg"
-        />
-
-        <img
-          class="vector-icon43"
-          loading="lazy"
-          alt=""
-          src="./public/vector-4.svg"
-        />
-
-        <img class="vector-icon44" alt="" src="./public/vector.svg" />
-
-        <img class="vector-icon45" alt="" src="./public/vector-7.svg" />
-      </main>
-      <div class="hero-section5">
-        <div class="personal-details-parent">
-          <b class="personal-details3">Personal Details</b>
-          <form>
-            <div class="full-name-container">
-              <label class="full-name3">Full Name</label>
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./registration-teacher.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" />
+</head>
+<body>
+  <div class="registration-teacher">
+    <main class="frame-main">
+      <img class="vector-icon38" alt="" src="./public/vector.svg" />
+      <img class="vector-icon39" alt="" src="./public/vector-1.svg" />
+      <img class="vector-icon40" loading="lazy" alt="" src="./public/vector-1.svg" />
+      <img class="vector-icon41" loading="lazy" alt="" src="./public/vector-3.svg" />
+      <img class="vector-icon42" loading="lazy" alt="" src="./public/vector-4.svg" />
+      <img class="vector-icon43" loading="lazy" alt="" src="./public/vector-4.svg" />
+      <img class="vector-icon44" alt="" src="./public/vector.svg" />
+      <img class="vector-icon45" alt="" src="./public/vector-7.svg" />
+    </main>
+    <div class="hero-section5">
+      <div class="personal-details-parent">
+        <b class="personal-details3">Personal Details</b>
+        <form id="registrationForm">
+          <div class="full-name-container">
+            <label class="full-name3">Full Name</label>
+            <div class="personal-input">
+              <input class="placeholder" placeholder="What is your full name?" type="text" id="fullName" />
+            </div>
+          </div>
+          <div class="full-name-container">
+            <div class="date-of-birth4">Date Of Birth</div>
+            <div class="personal-input">
+              <input class="placeholder" placeholder="What is your DOB?" type="date" id="dob" />
+            </div>
+          </div>
+          <div class="full-name-container">
+            <div class="gender-container">
+              <div class="gender3">Gender</div>
               <div class="personal-input">
-                <input
-                  class="placeholder"
-                  placeholder="What is your full name?"
-                  type="text"
-                />
+                <input class="placeholder" placeholder="What is your gender?" type="text" id="gender" />
               </div>
-            </div>
-            <div class="full-name-container">
-              <div class="date-of-birth4">Date Of Birth</div>
-              <div class="personal-input">
-                <input
-                  class="placeholder"
-                  placeholder="What is your DOB?"
-                  type="date"
-                />
-              </div>
-            </div>
-            <div class="full-name-container">
-              <div class="gender-container">
-                <div class="gender3">Gender</div>
-                <div class="personal-input">
-                  <input
-                    class="placeholder"
-                    placeholder="What is your gender?"
-                    type="text"
-                  />
-                </div>
-              </div>
-            </div>
-            <div class="full-name-container">
-              <div class="teacher-email-id-container">
-                <div class="teacher-email-id1">Email ID</div>
-              </div>
-              <div class="department-label">
-                <input
-                  class="placeholder"
-                  placeholder="What is your email ID?"
-                  type="email"
-                />
-              </div>
-            </div>
-          </form>
-        </div>
-        <div class="department-details-parent">
-          <b class="department-details1">Department Details</b>
-          <div class="department-name-group">
-            <div class="department-name1">Department Name</div>
-            <div class="department-label">
-              <input
-                class="placeholder"
-                placeholder="What is your Department Name?"
-                type="text"
-              />
             </div>
           </div>
-          <div class="department-name-group">
-            <div class="department-name1">Current Semester</div>
+          <div class="full-name-container">
+            <div class="teacher-email-id-container">
+              <div class="teacher-email-id1">Email ID</div>
+            </div>
             <div class="department-label">
-              <input
-                class="placeholder"
-                placeholder="What is your Current Semester?"
-                type="text"
-              />
+              <input class="placeholder" placeholder="What is your email ID?" type="email" id="email" />
             </div>
           </div>
-        </div>
-        <div class="create-a-password-group">
-          <b class="create-a-password1">Create A Password</b>
-          <div class="department-name-group">
-            <div class="password-min-61">Password [Min 6 characters]</div>
-            <div class="department-label">
-              <input
-                class="placeholder"
-                placeholder="Enter your password..."
-                type="password"
-              />
-            </div>
+        </form>
+      </div>
+      <div class="department-details-parent">
+        <b class="department-details1">Department Details</b>
+        <div class="department-name-group">
+          <div class="department-name1">Department Name</div>
+          <div class="department-label">
+            <input class="placeholder" placeholder="What is your Department Name?" type="text" id="departmentName" />
           </div>
         </div>
-        <div class="register-wrapper2">
-          <button class="register5">
-            <div class="register6">Register</div>
-          </button>
+        <div class="department-name-group">
+          <div class="department-name1">Current Semester</div>
+          <div class="department-label">
+            <input class="placeholder" placeholder="What is your Current Semester?" type="text" id="currentSemester" />
+          </div>
         </div>
       </div>
+      <div class="create-a-password-group">
+        <b class="create-a-password1">Create A Password</b>
+        <div class="department-name-group">
+          <div class="password-min-61">Password [Min 6 characters]</div>
+          <div class="department-label">
+            <input class="placeholder" placeholder="Enter your password..." type="password" id="password" />
+          </div>
+        </div>
+      </div>
+      <div class="register-wrapper2">
+        <button class="register5" type="button" onclick="registerUser()">
+          <div class="register6">Register</div>
+        </button>
+      </div>
     </div>
-  </body>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1/firebase-app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1/firebase-auth.js"></script>
+  <script src="./registration"></script>
+  <script>
+    // Initialize Firebase
+    const firebaseConfig = {
+  apiKey: "AIzaSyDWpTzYoStkXlAEPKAy4um7ttX_uoYaWVE",
+  authDomain: "teacher-portal-5718f.firebaseapp.com",
+  projectId: "teacher-portal-5718f",
+  storageBucket: "teacher-portal-5718f.appspot.com",
+  messagingSenderId: "207240471770",
+  appId: "1:207240471770:web:e90d5d24f9325815e0f1e3"
+};
+
+    firebase.initializeApp(firebaseConfig);
+
+    const registerUser = async () => {
+      const fullName = document.getElementById('fullName').value;
+      const dob = document.getElementById('dob').value;
+      const gender = document.getElementById('gender').value;
+      const email = document.getElementById('email').value;
+      const departmentName = document.getElementById('departmentName').value;
+      const currentSemester = document.getElementById('currentSemester').value;
+      const password = document.getElementById('password').value;
+
+      try {
+        const userCredential = await firebase.auth().createUserWithEmailAndPassword(email, password);
+
+        // Update user profile
+        await userCredential.user.updateProfile({
+          displayName: fullName
+        });
+
+        // Additional user details can be saved to Firestore or Realtime Database
+
+        console.log('User registered successfully:', userCredential.user);
+        alert('Registration successful!');
+
+        // Redirect to login page or dashboard
+        window.location.href = "/login-teacher.html";
+      } catch (error) {
+        console.error('Error registering user:', error);
+        alert('Error registering user. Please try again.');
+      }
+    };
+  </script>
+</body>
 </html>
